@@ -1,10 +1,11 @@
 import {defineConfig} from 'vite';
 import react from '@vitejs/plugin-react';
+import commonjs from 'vite-plugin-commonjs';
 
 export default defineConfig(({mode}) => {
 	const env = process.env;
 	return {
-		plugins: [react()],
+		plugins: [react(), commonjs()],
 		base: mode === 'production' ? '/my-production-base/' : '/',
 		define: {
 			__APP_ENV__: env.VITE_ENV_NAME,
