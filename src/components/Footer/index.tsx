@@ -30,8 +30,8 @@ export const Footer = () => {
 						<img
 							src={
 								tabIndex == '/Home' || tabIndex == '/'
-									? '../../assets/tabbar/icon_Home.png'
-									: '../../assets/tabbar/icon_Home_un.png'
+									? '/assets/tabbar/icon_Home.png'
+									: '/assets/tabbar/icon_Home_un.png'
 							}></img>
 					}>
 					{t('components.home')}
@@ -42,8 +42,8 @@ export const Footer = () => {
 						<img
 							src={
 								tabIndex == '/Trading'
-									? '../../assets/tabbar/icon_Trading.png'
-									: '../../assets/tabbar/icon_Trading_un.png'
+									? '/assets/tabbar/icon_Trading.png'
+									: '/assets/tabbar/icon_Trading_un.png'
 							}></img>
 					}>
 					{t('components.trading')}
@@ -54,8 +54,8 @@ export const Footer = () => {
 						<img
 							src={
 								tabIndex == '/Holding'
-									? '../../assets/tabbar/icon_Position.png'
-									: '../../assets/tabbar/icon_Position_un.png'
+									? '/assets/tabbar/icon_Position.png'
+									: '/assets/tabbar/icon_Position_un.png'
 							}></img>
 					}>
 					{t('components.holding')}
@@ -66,8 +66,8 @@ export const Footer = () => {
 						<img
 							src={
 								tabIndex == '/Follow'
-									? '../../assets/tabbar/icon_Collect.png'
-									: '../../assets/tabbar/icon_Collect_un.png'
+									? '/assets/tabbar/icon_Collect.png'
+									: '/assets/tabbar/icon_Collect_un.png'
 							}></img>
 					}>
 					{t('components.follow')}
