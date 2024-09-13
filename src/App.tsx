@@ -8,7 +8,9 @@ import WebApp from '@twa-dev/sdk';
 import {routes} from './routes';
 import {Route, BrowserRouter, Routes} from 'react-router-dom';
 import './indexDB/index';
+import eruda from 'eruda';
 
+eruda.init();
 const App = () => {
 	const {t, i18n} = useTranslation();
 	const count = useSelector((state: RootState) => state.counter.value);
