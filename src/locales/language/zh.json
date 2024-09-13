@@ -1,0 +1,11 @@
+{
+	"components": {
+		"reset": "重置",
+		"home": "主页",
+		"trading": "交易",
+		"holding": "持仓",
+		"follow": "关注"
+	},
+	"welcome": "欢迎",
+	"description": "这是英语版本."
+}

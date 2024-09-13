@@ -1,0 +1,11 @@
+{
+	"components": {
+		"reset": "Reset",
+		"home": "Home",
+		"trading": "Trading",
+		"holding": "Holding",
+		"follow": "Follow"
+	},
+	"welcome": "Welcome",
+	"description": "This is the English version."
+}

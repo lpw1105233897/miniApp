@@ -1,0 +1,15 @@
+{
+	"files": [],
+	"references": [{"path": "./tsconfig.app.json"}, {"path": "./tsconfig.node.json"}],
+	"compilerOptions": {
+		"types": ["@types/telegram-webapp"],
+		"typeRoots": ["./node_modules/@types"],
+		"jsx": "react-jsx", // 或者 "react"
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"target": "esnext",
+		"module": "esnext",
+		"skipLibCheck": true,
+		"resolveJsonModule": true
+	}
+}
