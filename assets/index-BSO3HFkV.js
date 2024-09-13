@@ -1,0 +1,1 @@
+import{u as o,a as s,r as n,j as t}from"./index-ClYfl0dR.js";const r=()=>{o();const{t:e,i18n:a}=s();return console.log(e),n.useEffect(()=>{},[]),t.jsxDEV("div",{children:"follow"},void 0,!1,{fileName:"E:/openName/chill-tg-miniapp/src/pages/notFound/index.tsx",lineNumber:14,columnNumber:9},void 0)};export{r as NotFound,r as default};
