@@ -13,7 +13,16 @@ export default defineConfig(({mode}) => {
 				'@': '/src',
 			},
 		},
-
+		build: {
+			rollupOptions: {
+				output: {
+					// 保证所有路由都指向 index.html
+					entryFileNames: `[name].js`,
+					chunkFileNames: `[name].js`,
+					assetFileNames: `[name].[ext]`,
+				},
+			},
+		},
 		css: {
 			preprocessorOptions: {
 				less: {
