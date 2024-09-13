@@ -10,6 +10,7 @@
 		"build:test": "vite build --mode test",
 		"serve": "vite preview --mode production",
 		"lint": "eslint .",
+		"predeploy": "vite build --mode production",
 		"deploy": "gh-pages -d dist",
 		"preview": "vite preview"
 	},
