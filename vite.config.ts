@@ -5,7 +5,7 @@ import commonjs from 'vite-plugin-commonjs';
 export default defineConfig(({mode}) => {
 	return {
 		plugins: [react(), commonjs()],
-		base: mode === 'production' ? '/my-production-base/' : '/',
+		base: mode === 'production' ? '/miniApp/' : '/',
 
 		resolve: {
 			alias: {
