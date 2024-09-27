@@ -11,6 +11,6 @@ export const NotFound: React.FC = () => {
 	console.log(t);
 	useEffect(() => {}, []);
 
-	return <div>notFound</div>;
+	return <div>notFound1</div>;
 };
 export default NotFound;

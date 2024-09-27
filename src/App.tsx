@@ -6,7 +6,7 @@ import {RootState} from './store';
 import {increment, decrement, incrementByAmount} from './store/createSlice/counter';
 import WebApp from '@twa-dev/sdk';
 import {routes} from './routes';
-import {Route, BrowserRouter, Routes} from 'react-router-dom';
+import {Route, BrowserRouter, Routes, HashRouter} from 'react-router-dom';
 import './indexDB/index';
 import eruda from 'eruda';
 
@@ -39,11 +39,12 @@ const App = () => {
 	};
 
 	return (
-		<BrowserRouter>
-			<Suspense fallback={<div>Loading...</div>}>
+		<HashRouter>
+			{/* fallback={<div>Loading...</div>} */}
+			<Suspense>
 				<Routes>{renderRoutes(routes)}</Routes>
 			</Suspense>
-		</BrowserRouter>
+		</HashRouter>
 		// <div>
 		// 	<div>
 		// 		<h1>{t('welcome')}</h1>

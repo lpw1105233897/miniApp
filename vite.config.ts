@@ -7,7 +7,13 @@ export default defineConfig(({mode}) => {
 	return {
 		plugins: [react(), commonjs(), basicSsl()],
 		base: mode === 'production' ? '/miniApp' : '/',
-
+		server: {
+			headers: {
+				'Cache-Control': 'no-cache, no-store, must-revalidate',
+				Pragma: 'no-cache',
+				Expires: '0',
+			},
+		},
 		resolve: {
 			alias: {
 				'@': '/src',
@@ -17,9 +23,9 @@ export default defineConfig(({mode}) => {
 			rollupOptions: {
 				output: {
 					// 保证所有路由都指向 index.html
-					entryFileNames: `[name].js`,
-					chunkFileNames: `[name].js`,
-					assetFileNames: `[name].[ext]`,
+					entryFileNames: `[name].[hash].js`,
+					chunkFileNames: `[name].[hash].js`,
+					assetFileNames: `[name].[hash].[ext]`,
 				},
 			},
 		},

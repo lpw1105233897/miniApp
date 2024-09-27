@@ -8,8 +8,8 @@ export const Trading: React.FC = () => {
 	// 路由方法
 	const navigate = useNavigate();
 
-	const {t, i18n} = useTranslation();
-	console.log(t);
+	// const {t, i18n} = useTranslation();
+	// console.log(t);
 	useEffect(() => {}, []);
 
 	return (
