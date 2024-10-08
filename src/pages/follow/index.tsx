@@ -14,7 +14,7 @@ export const Follow: React.FC = () => {
 
 	return (
 		<div>
-			Follow
+			Follow1
 			<Footer></Footer>
 		</div>
 	);
