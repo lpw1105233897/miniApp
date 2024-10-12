@@ -1,0 +1,1 @@
+import{r as i}from"./index.B78ARlqa.js";const s=t=>{const{defaultValue:e,value:n}=t||{},[r,u]=i.useState(()=>{if(n!==void 0)return n;if(e!==void 0)return typeof e=="function"?e():e}),a=n!==void 0?n:r;function d(f){u(f)}return[a,d]};export{s as u};

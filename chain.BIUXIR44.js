@@ -1,0 +1,1 @@
+function r(e){return/\b0x[0-9a-fA-F]{40}\b/g.test(e)}function s(e){return/\b[1-9A-Za-z]{32,44}\b/g.test(e)}function t(e){return s(e)||r(e)}function i(e,n){return n==102?s(e):r(e)}export{r as a,t as b,s as i,i as v};
