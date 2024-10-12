@@ -1,1 +1,0 @@
-import{j as t}from"./index.B78ARlqa.js";import"./index.CQmmkGGK.js";const m=e=>{const{lambClass:i}=e;return t.jsxDEV("img",{className:`${i}`,src:"./assets/insertToScript/lamborghini.webp",width:360,height:192,alt:"Animated WebP"},void 0,!1,{fileName:"E:/openName/chill-tg-miniapp/src/components/LottieAnimation/index.tsx",lineNumber:10,columnNumber:3},void 0)};export{m as L};

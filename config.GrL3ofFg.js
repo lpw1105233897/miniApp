@@ -1,0 +1,1 @@
+import{bw as n}from"./index.BMYTjNFU.js";const e={en:"English",cn:"简体中文",zhCn:"繁體中文"},l=[{name:"English",key:"en"},{name:"简体中文",key:"cn"},{name:"繁體中文",key:"zhCn"}],t=n("https://chill.fun/tradelink","https://alpha.open.name/tradelink","http://192.168.8.5/tradelink");export{l as a,t as c,e as l};

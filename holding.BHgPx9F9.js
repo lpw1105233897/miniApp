@@ -1,0 +1,1 @@
+import{bd as n}from"./index.BMYTjNFU.js";const p=async r=>{const a="/public/holding";let{page:o,size:t,remainFlag:s,excludeHoldAddressList:i,chainAddressList:d}=r;const e=await n(a,{method:"POST",body:{pageNum:o,pageSize:t,remainFlag:s||"",excludeHoldAddressList:i,chainAddressList:d}},!0);if(e.error)console.error("Error posting data:",e.error);else return e.data};export{p as f};

@@ -1,1 +1,0 @@
-import{r,i as n}from"./index.B78ARlqa.js";import{d as s}from"./dev-log.B1yISlAJ.js";function o(t){const e=r.useRef(t);return e.current=t,e}const c=t=>{n(t)||s("useUnmount",`expected parameter is a function, got ${typeof t}`);const e=o(t);r.useEffect(()=>()=>{e.current()},[])};export{c as a,o as u};

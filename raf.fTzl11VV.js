@@ -1,0 +1,1 @@
+import{b2 as c}from"./index.BMYTjNFU.js";var m={};const a=c?window:m;let o=Date.now();function l(n){const e=Date.now(),t=Math.max(0,16-(e-o)),i=setTimeout(n,t);return o=e+t,i}function r(n){return(a.requestAnimationFrame||l).call(a,n)}function u(n){(a.cancelAnimationFrame||a.clearTimeout).call(a,n)}function f(n){r(()=>{r(n)})}export{a,u as c,f as d,r};
